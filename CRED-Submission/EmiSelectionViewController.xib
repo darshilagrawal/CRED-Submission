@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EmiSelectionViewController" customModule="CRED_Submission" customModuleProvider="target">
+            <connections>
+                <outlet property="EmiBottomButton" destination="X3Y-pq-EqO" id="XU5-fn-BqM"/>
+                <outlet property="EmiBottomLabel" destination="9Hk-2i-45c" id="YPl-yy-0kR"/>
+                <outlet property="EmiOptionsCollection" destination="hl7-vd-UHo" id="8tZ-iR-7H8"/>
+                <outlet property="EmiTopLabel" destination="QnZ-ZF-c7t" id="ii4-Ci-Lm2"/>
+                <outlet property="chooseYourPlanButton" destination="Pc9-qd-lM6" id="iEq-MX-8XS"/>
+                <outlet property="contentView" destination="Ip4-OK-PNf" id="vSs-ri-PYF"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ip4-OK-PNf">
+                    <rect key="frame" x="0.0" y="254" width="414" height="642"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="how do you wish to repay?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QnZ-ZF-c7t">
+                            <rect key="frame" x="27" y="24" width="264" height="26"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="21"/>
+                            <color key="textColor" name="Cred_font"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="choose one of our recommended plans or make your own" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Hk-2i-45c">
+                            <rect key="frame" x="27" y="52" width="357" height="36"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                            <color key="textColor" name="Cred_font"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="hl7-vd-UHo">
+                            <rect key="frame" x="27" y="101" width="387" height="237"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Fr5-0s-pZq">
+                                <size key="itemSize" width="200" height="200"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                        </collectionView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pc9-qd-lM6">
+                            <rect key="frame" x="48" y="367" width="174" height="30"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                            <inset key="contentEdgeInsets" minX="5" minY="5" maxX="5" maxY="5"/>
+                            <state key="normal" title="Create your own plan">
+                                <color key="titleColor" name="Cred_font"/>
+                            </state>
+                            <connections>
+                                <action selector="createYourPlanTapped:" destination="-1" eventType="touchUpInside" id="nA4-Pq-Jvj"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X3Y-pq-EqO">
+                            <rect key="frame" x="0.0" y="572" width="414" height="70"/>
+                            <color key="backgroundColor" name="Cred_blue"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="70" id="1SB-cc-JKs"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                            <state key="normal" title="Select your bank account">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="bottomButtonPressed:" destination="-1" eventType="touchUpInside" id="BMh-LP-yBc"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q49-IO-qGx">
+                            <rect key="frame" x="378" y="57" width="13" height="10"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="13" id="coX-FW-Mv3"/>
+                                <constraint firstAttribute="height" constant="10" id="pWp-Bc-E5Y"/>
+                            </constraints>
+                            <state key="normal" image="Cred_downArrow" backgroundImage="Cred_downArrow">
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                            </state>
+                            <connections>
+                                <action selector="backButtonPressed:" destination="-1" eventType="touchUpInside" id="F4E-7G-y9y"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" name="Cred_secondScreen"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="X3Y-pq-EqO" secondAttribute="bottom" id="JyO-oD-4Th"/>
+                        <constraint firstItem="QnZ-ZF-c7t" firstAttribute="leading" secondItem="Ip4-OK-PNf" secondAttribute="leading" constant="27" id="KkY-Lx-fYt"/>
+                        <constraint firstItem="hl7-vd-UHo" firstAttribute="top" secondItem="9Hk-2i-45c" secondAttribute="bottom" constant="13" id="TW6-nw-vaa"/>
+                        <constraint firstItem="Q49-IO-qGx" firstAttribute="top" secondItem="Ip4-OK-PNf" secondAttribute="top" constant="57" id="Wdq-Fb-9TF"/>
+                        <constraint firstAttribute="trailing" secondItem="QnZ-ZF-c7t" secondAttribute="trailing" constant="123" id="YTX-bg-11r"/>
+                        <constraint firstAttribute="trailing" secondItem="9Hk-2i-45c" secondAttribute="trailing" constant="30" id="YqE-ur-YqS"/>
+                        <constraint firstItem="X3Y-pq-EqO" firstAttribute="leading" secondItem="Ip4-OK-PNf" secondAttribute="leading" id="cC2-ye-7Ei"/>
+                        <constraint firstItem="Pc9-qd-lM6" firstAttribute="leading" secondItem="Ip4-OK-PNf" secondAttribute="leading" constant="48" id="ehd-Ue-mkE"/>
+                        <constraint firstItem="QnZ-ZF-c7t" firstAttribute="top" secondItem="Ip4-OK-PNf" secondAttribute="top" constant="24" id="fFV-kh-03D"/>
+                        <constraint firstItem="X3Y-pq-EqO" firstAttribute="top" secondItem="Pc9-qd-lM6" secondAttribute="bottom" constant="175" id="iSC-xk-xFa"/>
+                        <constraint firstAttribute="trailing" secondItem="X3Y-pq-EqO" secondAttribute="trailing" id="l7e-L7-cpU"/>
+                        <constraint firstAttribute="trailing" secondItem="hl7-vd-UHo" secondAttribute="trailing" id="noY-NF-rWB"/>
+                        <constraint firstItem="Q49-IO-qGx" firstAttribute="leading" secondItem="QnZ-ZF-c7t" secondAttribute="trailing" constant="87" id="oEf-zx-ZyS"/>
+                        <constraint firstItem="Pc9-qd-lM6" firstAttribute="top" secondItem="hl7-vd-UHo" secondAttribute="bottom" constant="29" id="oFl-FW-gTk"/>
+                        <constraint firstItem="hl7-vd-UHo" firstAttribute="leading" secondItem="Ip4-OK-PNf" secondAttribute="leading" constant="27" id="rUd-Qh-QGq"/>
+                        <constraint firstItem="9Hk-2i-45c" firstAttribute="leading" secondItem="Ip4-OK-PNf" secondAttribute="leading" constant="27" id="tXV-WD-KIe"/>
+                        <constraint firstItem="9Hk-2i-45c" firstAttribute="top" secondItem="QnZ-ZF-c7t" secondAttribute="bottom" constant="2" id="ycd-YD-SI0"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Ip4-OK-PNf" secondAttribute="trailing" id="DX7-9i-gYt"/>
+                <constraint firstAttribute="bottom" secondItem="Ip4-OK-PNf" secondAttribute="bottom" id="OzG-KQ-ALK"/>
+                <constraint firstItem="Ip4-OK-PNf" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="gDA-89-dvd"/>
+                <constraint firstItem="Ip4-OK-PNf" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="210" id="vHZ-iN-QLm"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="89.855072463768124" y="87.723214285714278"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Cred_downArrow" width="385" height="233"/>
+        <namedColor name="Cred_blue">
+            <color red="0.22699999809265137" green="0.2669999897480011" blue="0.61599999666213989" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Cred_font">
+            <color red="0.54500001668930054" green="0.59200000762939453" blue="0.62000000476837158" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Cred_secondScreen">
+            <color red="0.10199999809265137" green="0.10999999940395355" blue="0.16099999845027924" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,6 @@
+framework module Synth {
+  umbrella header "synth-ios-umbrella.h"
+
+  export *
+  module * { export * }
+}

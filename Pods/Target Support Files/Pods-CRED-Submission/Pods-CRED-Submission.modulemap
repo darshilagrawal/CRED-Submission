@@ -1,0 +1,6 @@
+framework module Pods_CRED_Submission {
+  umbrella header "Pods-CRED-Submission-umbrella.h"
+
+  export *
+  module * { export * }
+}

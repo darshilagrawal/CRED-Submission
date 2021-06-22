@@ -1,0 +1,6 @@
+framework module Pods_CRED_Submission_CRED_SubmissionUITests {
+  umbrella header "Pods-CRED-Submission-CRED-SubmissionUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

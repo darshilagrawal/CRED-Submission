@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="EmiCell" id="gTV-IL-0wX" customClass="EmiCell" customModule="CRED_Submission" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="empty-circle" translatesAutoresizingMaskIntoConstraints="NO" id="Hdm-co-c1g">
+                        <rect key="frame" x="20" y="36" width="35" height="35"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="₹4,247 /mo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vme-1Q-kPv">
+                        <rect key="frame" x="20" y="99" width="94" height="21"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="for 12 months" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14I-4q-W1T">
+                        <rect key="frame" x="20" y="125" width="104" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="UWV-Z4-vaJ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                        <color key="textColor" name="Cred_font"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="See calculations" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KXK-fI-Wsu">
+                        <rect key="frame" x="20" y="159" width="115" height="18"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                        <color key="textColor" name="Cred_font"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="KXK-fI-Wsu" secondAttribute="bottom" constant="23" id="8hG-JE-zVN"/>
+                <constraint firstItem="Hdm-co-c1g" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="36" id="D63-UP-sOE"/>
+                <constraint firstAttribute="trailing" secondItem="Hdm-co-c1g" secondAttribute="trailing" constant="145" id="JMc-qy-qmT"/>
+                <constraint firstItem="14I-4q-W1T" firstAttribute="leading" secondItem="KXK-fI-Wsu" secondAttribute="leading" id="PbY-8X-dgA"/>
+                <constraint firstItem="14I-4q-W1T" firstAttribute="top" secondItem="vme-1Q-kPv" secondAttribute="bottom" constant="5" id="QAd-0D-dST"/>
+                <constraint firstItem="vme-1Q-kPv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="gyH-3r-2zi"/>
+                <constraint firstItem="Hdm-co-c1g" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="kou-9C-KS4"/>
+                <constraint firstItem="14I-4q-W1T" firstAttribute="top" secondItem="vme-1Q-kPv" secondAttribute="bottom" constant="5" id="ocq-cw-c14"/>
+                <constraint firstItem="14I-4q-W1T" firstAttribute="leading" secondItem="vme-1Q-kPv" secondAttribute="leading" id="qZd-Hw-x2Z"/>
+                <constraint firstAttribute="bottom" secondItem="14I-4q-W1T" secondAttribute="bottom" constant="55" id="quo-Uq-Cas"/>
+                <constraint firstItem="vme-1Q-kPv" firstAttribute="top" secondItem="Hdm-co-c1g" secondAttribute="bottom" constant="28" id="xAf-vj-0qu"/>
+                <constraint firstItem="KXK-fI-Wsu" firstAttribute="top" secondItem="14I-4q-W1T" secondAttribute="bottom" constant="14" id="y3h-Cz-DXb"/>
+            </constraints>
+            <connections>
+                <outlet property="amountLabel" destination="vme-1Q-kPv" id="h1r-vd-ipE"/>
+                <outlet property="bottomCalculationLabel" destination="KXK-fI-Wsu" id="qgG-mI-L7p"/>
+                <outlet property="durationLabel" destination="14I-4q-W1T" id="Nqo-ds-RLX"/>
+                <outlet property="selectedCircle" destination="Hdm-co-c1g" id="8Kk-jM-UL2"/>
+            </connections>
+            <point key="canvasLocation" x="-10.144927536231885" y="87.723214285714278"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="empty-circle" width="512" height="512"/>
+        <namedColor name="Cred_font">
+            <color red="0.54500001668930054" green="0.59200000762939453" blue="0.62000000476837158" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

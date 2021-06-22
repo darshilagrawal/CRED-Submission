@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12CE4FE124D93C27DACDA535 /* Pods_CRED_SubmissionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034B53F211B523BB945D8333 /* Pods_CRED_SubmissionTests.framework */; };
+		52D565A749D23C6468C69C93 /* Pods_CRED_Submission.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DDA1B73681E27D81F1D2023 /* Pods_CRED_Submission.framework */; };
+		99CF807D1EB243F521E1A15F /* Pods_CRED_Submission_CRED_SubmissionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050EF463AFEC0EDE1262B2CE /* Pods_CRED_Submission_CRED_SubmissionUITests.framework */; };
 		D57B636E2681B4C300747890 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57B636D2681B4C300747890 /* AppDelegate.swift */; };
 		D57B63702681B4C300747890 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57B636F2681B4C300747890 /* SceneDelegate.swift */; };
 		D57B63722681B4C300747890 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57B63712681B4C300747890 /* ViewController.swift */; };
@@ -15,6 +18,16 @@
 		D57B637A2681B4CA00747890 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D57B63782681B4CA00747890 /* LaunchScreen.storyboard */; };
 		D57B63852681B4CA00747890 /* CRED_SubmissionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57B63842681B4CA00747890 /* CRED_SubmissionTests.swift */; };
 		D57B63902681B4CA00747890 /* CRED_SubmissionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57B638F2681B4CA00747890 /* CRED_SubmissionUITests.swift */; };
+		D57B63A22681C23D00747890 /* AmountSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57B63A02681C23D00747890 /* AmountSelectionViewController.swift */; };
+		D57B63A32681C23D00747890 /* AmountSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D57B63A12681C23D00747890 /* AmountSelectionViewController.xib */; };
+		D57B63A92681E07000747890 /* EmiSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57B63A72681E07000747890 /* EmiSelectionViewController.swift */; };
+		D57B63AA2681E07000747890 /* EmiSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D57B63A82681E07000747890 /* EmiSelectionViewController.xib */; };
+		D57B63AD2681E5AE00747890 /* EmiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57B63AB2681E5AE00747890 /* EmiCell.swift */; };
+		D57B63AE2681E5AE00747890 /* EmiCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D57B63AC2681E5AE00747890 /* EmiCell.xib */; };
+		D57B63B02681ED1600747890 /* CollectionCellColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57B63AF2681ED1600747890 /* CollectionCellColors.swift */; };
+		D57B63B32681F13900747890 /* BankSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57B63B12681F13900747890 /* BankSelectionViewController.swift */; };
+		D57B63B42681F13900747890 /* BankSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D57B63B22681F13900747890 /* BankSelectionViewController.xib */; };
+		D57B63B62681FA2800747890 /* EmiCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57B63B52681FA2800747890 /* EmiCellModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		034B53F211B523BB945D8333 /* Pods_CRED_SubmissionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CRED_SubmissionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		040278D37150AAB05E0F2917 /* Pods-CRED-SubmissionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRED-SubmissionTests.release.xcconfig"; path = "Target Support Files/Pods-CRED-SubmissionTests/Pods-CRED-SubmissionTests.release.xcconfig"; sourceTree = "<group>"; };
+		050EF463AFEC0EDE1262B2CE /* Pods_CRED_Submission_CRED_SubmissionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CRED_Submission_CRED_SubmissionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3407BACE85542F0B984089E9 /* Pods-CRED-Submission.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRED-Submission.release.xcconfig"; path = "Target Support Files/Pods-CRED-Submission/Pods-CRED-Submission.release.xcconfig"; sourceTree = "<group>"; };
+		5DEC74C260DBF8F310664879 /* Pods-CRED-Submission-CRED-SubmissionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRED-Submission-CRED-SubmissionUITests.release.xcconfig"; path = "Target Support Files/Pods-CRED-Submission-CRED-SubmissionUITests/Pods-CRED-Submission-CRED-SubmissionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8DDA1B73681E27D81F1D2023 /* Pods_CRED_Submission.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CRED_Submission.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA4A096947095256C051A9B9 /* Pods-CRED-Submission-CRED-SubmissionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRED-Submission-CRED-SubmissionUITests.debug.xcconfig"; path = "Target Support Files/Pods-CRED-Submission-CRED-SubmissionUITests/Pods-CRED-Submission-CRED-SubmissionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD61CF7E195FAE7376E1A7A2 /* Pods-CRED-Submission.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRED-Submission.debug.xcconfig"; path = "Target Support Files/Pods-CRED-Submission/Pods-CRED-Submission.debug.xcconfig"; sourceTree = "<group>"; };
 		D57B636A2681B4C300747890 /* CRED-Submission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CRED-Submission.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D57B636D2681B4C300747890 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D57B636F2681B4C300747890 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +70,17 @@
 		D57B638B2681B4CA00747890 /* CRED-SubmissionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CRED-SubmissionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D57B638F2681B4CA00747890 /* CRED_SubmissionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRED_SubmissionUITests.swift; sourceTree = "<group>"; };
 		D57B63912681B4CA00747890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D57B63A02681C23D00747890 /* AmountSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountSelectionViewController.swift; sourceTree = "<group>"; };
+		D57B63A12681C23D00747890 /* AmountSelectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AmountSelectionViewController.xib; sourceTree = "<group>"; };
+		D57B63A72681E07000747890 /* EmiSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmiSelectionViewController.swift; sourceTree = "<group>"; };
+		D57B63A82681E07000747890 /* EmiSelectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmiSelectionViewController.xib; sourceTree = "<group>"; };
+		D57B63AB2681E5AE00747890 /* EmiCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmiCell.swift; sourceTree = "<group>"; };
+		D57B63AC2681E5AE00747890 /* EmiCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmiCell.xib; sourceTree = "<group>"; };
+		D57B63AF2681ED1600747890 /* CollectionCellColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCellColors.swift; sourceTree = "<group>"; };
+		D57B63B12681F13900747890 /* BankSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankSelectionViewController.swift; sourceTree = "<group>"; };
+		D57B63B22681F13900747890 /* BankSelectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BankSelectionViewController.xib; sourceTree = "<group>"; };
+		D57B63B52681FA2800747890 /* EmiCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmiCellModel.swift; sourceTree = "<group>"; };
+		E02F816FDA473C157807C72C /* Pods-CRED-SubmissionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRED-SubmissionTests.debug.xcconfig"; path = "Target Support Files/Pods-CRED-SubmissionTests/Pods-CRED-SubmissionTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52D565A749D23C6468C69C93 /* Pods_CRED_Submission.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12CE4FE124D93C27DACDA535 /* Pods_CRED_SubmissionTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +104,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99CF807D1EB243F521E1A15F /* Pods_CRED_Submission_CRED_SubmissionUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA340D6627BBFEE17CA18B5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD61CF7E195FAE7376E1A7A2 /* Pods-CRED-Submission.debug.xcconfig */,
+				3407BACE85542F0B984089E9 /* Pods-CRED-Submission.release.xcconfig */,
+				AA4A096947095256C051A9B9 /* Pods-CRED-Submission-CRED-SubmissionUITests.debug.xcconfig */,
+				5DEC74C260DBF8F310664879 /* Pods-CRED-Submission-CRED-SubmissionUITests.release.xcconfig */,
+				E02F816FDA473C157807C72C /* Pods-CRED-SubmissionTests.debug.xcconfig */,
+				040278D37150AAB05E0F2917 /* Pods-CRED-SubmissionTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D57B63612681B4C300747890 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +131,8 @@
 				D57B63832681B4CA00747890 /* CRED-SubmissionTests */,
 				D57B638E2681B4CA00747890 /* CRED-SubmissionUITests */,
 				D57B636B2681B4C300747890 /* Products */,
+				CA340D6627BBFEE17CA18B5B /* Pods */,
+				FB8BE6A640BDC43644EB37D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +156,16 @@
 				D57B63762681B4C900747890 /* Assets.xcassets */,
 				D57B63782681B4CA00747890 /* LaunchScreen.storyboard */,
 				D57B637B2681B4CA00747890 /* Info.plist */,
+				D57B63A02681C23D00747890 /* AmountSelectionViewController.swift */,
+				D57B63A12681C23D00747890 /* AmountSelectionViewController.xib */,
+				D57B63A72681E07000747890 /* EmiSelectionViewController.swift */,
+				D57B63A82681E07000747890 /* EmiSelectionViewController.xib */,
+				D57B63AB2681E5AE00747890 /* EmiCell.swift */,
+				D57B63AC2681E5AE00747890 /* EmiCell.xib */,
+				D57B63AF2681ED1600747890 /* CollectionCellColors.swift */,
+				D57B63B12681F13900747890 /* BankSelectionViewController.swift */,
+				D57B63B22681F13900747890 /* BankSelectionViewController.xib */,
+				D57B63B52681FA2800747890 /* EmiCellModel.swift */,
 			);
 			path = "CRED-Submission";
 			sourceTree = "<group>";
@@ -128,6 +188,16 @@
 			path = "CRED-SubmissionUITests";
 			sourceTree = "<group>";
 		};
+		FB8BE6A640BDC43644EB37D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DDA1B73681E27D81F1D2023 /* Pods_CRED_Submission.framework */,
+				050EF463AFEC0EDE1262B2CE /* Pods_CRED_Submission_CRED_SubmissionUITests.framework */,
+				034B53F211B523BB945D8333 /* Pods_CRED_SubmissionTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D57B63942681B4CA00747890 /* Build configuration list for PBXNativeTarget "CRED-Submission" */;
 			buildPhases = (
+				472B665BD35AC20DFAE7E54E /* [CP] Check Pods Manifest.lock */,
 				D57B63662681B4C300747890 /* Sources */,
 				D57B63672681B4C300747890 /* Frameworks */,
 				D57B63682681B4C300747890 /* Resources */,
+				8F774FEB91ABC589BA76D050 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D57B63972681B4CA00747890 /* Build configuration list for PBXNativeTarget "CRED-SubmissionTests" */;
 			buildPhases = (
+				39065CEDA9D873C50E1DB918 /* [CP] Check Pods Manifest.lock */,
 				D57B637C2681B4CA00747890 /* Sources */,
 				D57B637D2681B4CA00747890 /* Frameworks */,
 				D57B637E2681B4CA00747890 /* Resources */,
@@ -170,9 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D57B639A2681B4CA00747890 /* Build configuration list for PBXNativeTarget "CRED-SubmissionUITests" */;
 			buildPhases = (
+				D64DB4CF709007148EAFB1C3 /* [CP] Check Pods Manifest.lock */,
 				D57B63872681B4CA00747890 /* Sources */,
 				D57B63882681B4CA00747890 /* Frameworks */,
 				D57B63892681B4CA00747890 /* Resources */,
+				EBD90F3303F77E0F17086C76 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,8 +306,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D57B63AE2681E5AE00747890 /* EmiCell.xib in Resources */,
+				D57B63B42681F13900747890 /* BankSelectionViewController.xib in Resources */,
 				D57B637A2681B4CA00747890 /* LaunchScreen.storyboard in Resources */,
+				D57B63A32681C23D00747890 /* AmountSelectionViewController.xib in Resources */,
 				D57B63772681B4C900747890 /* Assets.xcassets in Resources */,
+				D57B63AA2681E07000747890 /* EmiSelectionViewController.xib in Resources */,
 				D57B63752681B4C300747890 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +332,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		39065CEDA9D873C50E1DB918 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CRED-SubmissionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		472B665BD35AC20DFAE7E54E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CRED-Submission-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F774FEB91ABC589BA76D050 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CRED-Submission/Pods-CRED-Submission-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CRED-Submission/Pods-CRED-Submission-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CRED-Submission/Pods-CRED-Submission-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D64DB4CF709007148EAFB1C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CRED-Submission-CRED-SubmissionUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBD90F3303F77E0F17086C76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CRED-Submission-CRED-SubmissionUITests/Pods-CRED-Submission-CRED-SubmissionUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CRED-Submission-CRED-SubmissionUITests/Pods-CRED-Submission-CRED-SubmissionUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CRED-Submission-CRED-SubmissionUITests/Pods-CRED-Submission-CRED-SubmissionUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D57B63662681B4C300747890 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -260,7 +442,13 @@
 			files = (
 				D57B63722681B4C300747890 /* ViewController.swift in Sources */,
 				D57B636E2681B4C300747890 /* AppDelegate.swift in Sources */,
+				D57B63B62681FA2800747890 /* EmiCellModel.swift in Sources */,
+				D57B63AD2681E5AE00747890 /* EmiCell.swift in Sources */,
 				D57B63702681B4C300747890 /* SceneDelegate.swift in Sources */,
+				D57B63A92681E07000747890 /* EmiSelectionViewController.swift in Sources */,
+				D57B63B02681ED1600747890 /* CollectionCellColors.swift in Sources */,
+				D57B63A22681C23D00747890 /* AmountSelectionViewController.swift in Sources */,
+				D57B63B32681F13900747890 /* BankSelectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +621,7 @@
 		};
 		D57B63952681B4CA00747890 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD61CF7E195FAE7376E1A7A2 /* Pods-CRED-Submission.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +641,7 @@
 		};
 		D57B63962681B4CA00747890 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3407BACE85542F0B984089E9 /* Pods-CRED-Submission.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +661,7 @@
 		};
 		D57B63982681B4CA00747890 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E02F816FDA473C157807C72C /* Pods-CRED-SubmissionTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +684,7 @@
 		};
 		D57B63992681B4CA00747890 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 040278D37150AAB05E0F2917 /* Pods-CRED-SubmissionTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +707,7 @@
 		};
 		D57B639B2681B4CA00747890 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA4A096947095256C051A9B9 /* Pods-CRED-Submission-CRED-SubmissionUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +728,7 @@
 		};
 		D57B639C2681B4CA00747890 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DEC74C260DBF8F310664879 /* Pods-CRED-Submission-CRED-SubmissionUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qea-G6-i2y">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +11,96 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CRED_Submission" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome To Cred" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uyp-NA-wPS">
+                                <rect key="frame" x="85" y="282" width="244" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" name="Cred_font"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Kunal Shah" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QYa-C8-94W">
+                                <rect key="frame" x="20" y="474" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter your name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4AK-By-t6P">
+                                <rect key="frame" x="103" y="354" width="207" height="23"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eyq-h7-hYz">
+                                <rect key="frame" x="20" y="533" width="374" height="30"/>
+                                <color key="backgroundColor" name="Cred_blue"/>
+                                <state key="normal" title="Submit">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="submitButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fO9-OY-RmM"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="Cred_grey"/>
+                        <constraints>
+                            <constraint firstItem="uyp-NA-wPS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1lM-Bb-GJt"/>
+                            <constraint firstItem="QYa-C8-94W" firstAttribute="top" secondItem="4AK-By-t6P" secondAttribute="bottom" constant="97" id="4Yb-eu-dlz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4AK-By-t6P" secondAttribute="trailing" constant="104" id="I0k-ys-9PT"/>
+                            <constraint firstItem="eyq-h7-hYz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="VBH-Cm-WUX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eyq-h7-hYz" secondAttribute="trailing" constant="20" id="Vhe-KN-Oaj"/>
+                            <constraint firstItem="uyp-NA-wPS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-148" id="abc-8x-9Gu"/>
+                            <constraint firstItem="QYa-C8-94W" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="dpD-I9-jfr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QYa-C8-94W" secondAttribute="trailing" constant="20" id="f1P-GB-eGU"/>
+                            <constraint firstItem="QYa-C8-94W" firstAttribute="top" secondItem="uyp-NA-wPS" secondAttribute="bottom" constant="156" id="jSx-jd-WjV"/>
+                            <constraint firstItem="4AK-By-t6P" firstAttribute="top" secondItem="uyp-NA-wPS" secondAttribute="bottom" constant="36" id="kDE-CP-75z"/>
+                            <constraint firstItem="eyq-h7-hYz" firstAttribute="top" secondItem="QYa-C8-94W" secondAttribute="bottom" constant="25" id="laL-1u-iMe"/>
+                            <constraint firstItem="4AK-By-t6P" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="103" id="r7K-8n-Re0"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="DC7-Zf-78j"/>
+                    <connections>
+                        <outlet property="mainHeading" destination="uyp-NA-wPS" id="2lM-Tc-osS"/>
+                        <outlet property="nameField" destination="QYa-C8-94W" id="WG9-05-00D"/>
+                        <outlet property="subHeading" destination="4AK-By-t6P" id="t9W-9y-tU3"/>
+                        <outlet property="submitButton" destination="eyq-h7-hYz" id="IWS-dl-PxB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="900.00000000000011" y="71.651785714285708"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="lHz-1X-hbz">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qea-G6-i2y" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="MNc-DJ-aUz">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="y6h-yL-jzu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Ou-r4-kCd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-10.144927536231885" y="71.651785714285708"/>
         </scene>
     </scenes>
+    <resources>
+        <namedColor name="Cred_blue">
+            <color red="0.22699999809265137" green="0.2669999897480011" blue="0.61599999666213989" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Cred_font">
+            <color red="0.54500001668930054" green="0.59200000762939453" blue="0.62000000476837158" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Cred_grey">
+            <color red="0.086000002920627594" green="0.097999997437000275" blue="0.13300000131130219" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
 </document>

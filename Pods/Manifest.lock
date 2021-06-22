@@ -1,0 +1,20 @@
+PODS:
+  - HGCircularSlider (2.2.0)
+  - synth-ios (1.0.0)
+
+DEPENDENCIES:
+  - HGCircularSlider
+  - synth-ios
+
+SPEC REPOS:
+  trunk:
+    - HGCircularSlider
+    - synth-ios
+
+SPEC CHECKSUMS:
+  HGCircularSlider: afb1942743a2df156dcc7a3500216e523e14266b
+  synth-ios: b91d9176ecc7ff791d94df9aedafbf5a8c00f965
+
+PODFILE CHECKSUM: bab25f85d57cac3bd8b6a481f780e1683c02e7b4
+
+COCOAPODS: 1.10.1
