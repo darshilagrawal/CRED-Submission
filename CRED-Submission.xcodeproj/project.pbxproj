@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D57B636E2681B4C300747890 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57B636D2681B4C300747890 /* AppDelegate.swift */; };
+		D57B63702681B4C300747890 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57B636F2681B4C300747890 /* SceneDelegate.swift */; };
+		D57B63722681B4C300747890 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57B63712681B4C300747890 /* ViewController.swift */; };
+		D57B63752681B4C300747890 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D57B63732681B4C300747890 /* Main.storyboard */; };
+		D57B63772681B4C900747890 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D57B63762681B4C900747890 /* Assets.xcassets */; };
+		D57B637A2681B4CA00747890 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D57B63782681B4CA00747890 /* LaunchScreen.storyboard */; };
+		D57B63852681B4CA00747890 /* CRED_SubmissionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57B63842681B4CA00747890 /* CRED_SubmissionTests.swift */; };
+		D57B63902681B4CA00747890 /* CRED_SubmissionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57B638F2681B4CA00747890 /* CRED_SubmissionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D57B63812681B4CA00747890 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57B63622681B4C300747890 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D57B63692681B4C300747890;
+			remoteInfo = "CRED-Submission";
+		};
+		D57B638C2681B4CA00747890 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57B63622681B4C300747890 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D57B63692681B4C300747890;
+			remoteInfo = "CRED-Submission";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D57B636A2681B4C300747890 /* CRED-Submission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CRED-Submission.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57B636D2681B4C300747890 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D57B636F2681B4C300747890 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D57B63712681B4C300747890 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D57B63742681B4C300747890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D57B63762681B4C900747890 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D57B63792681B4CA00747890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D57B637B2681B4CA00747890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D57B63802681B4CA00747890 /* CRED-SubmissionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CRED-SubmissionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57B63842681B4CA00747890 /* CRED_SubmissionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRED_SubmissionTests.swift; sourceTree = "<group>"; };
+		D57B63862681B4CA00747890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D57B638B2681B4CA00747890 /* CRED-SubmissionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CRED-SubmissionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57B638F2681B4CA00747890 /* CRED_SubmissionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRED_SubmissionUITests.swift; sourceTree = "<group>"; };
+		D57B63912681B4CA00747890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D57B63672681B4C300747890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D57B637D2681B4CA00747890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D57B63882681B4CA00747890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D57B63612681B4C300747890 = {
+			isa = PBXGroup;
+			children = (
+				D57B636C2681B4C300747890 /* CRED-Submission */,
+				D57B63832681B4CA00747890 /* CRED-SubmissionTests */,
+				D57B638E2681B4CA00747890 /* CRED-SubmissionUITests */,
+				D57B636B2681B4C300747890 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D57B636B2681B4C300747890 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D57B636A2681B4C300747890 /* CRED-Submission.app */,
+				D57B63802681B4CA00747890 /* CRED-SubmissionTests.xctest */,
+				D57B638B2681B4CA00747890 /* CRED-SubmissionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D57B636C2681B4C300747890 /* CRED-Submission */ = {
+			isa = PBXGroup;
+			children = (
+				D57B636D2681B4C300747890 /* AppDelegate.swift */,
+				D57B636F2681B4C300747890 /* SceneDelegate.swift */,
+				D57B63712681B4C300747890 /* ViewController.swift */,
+				D57B63732681B4C300747890 /* Main.storyboard */,
+				D57B63762681B4C900747890 /* Assets.xcassets */,
+				D57B63782681B4CA00747890 /* LaunchScreen.storyboard */,
+				D57B637B2681B4CA00747890 /* Info.plist */,
+			);
+			path = "CRED-Submission";
+			sourceTree = "<group>";
+		};
+		D57B63832681B4CA00747890 /* CRED-SubmissionTests */ = {
+			isa = PBXGroup;
+			children = (
+				D57B63842681B4CA00747890 /* CRED_SubmissionTests.swift */,
+				D57B63862681B4CA00747890 /* Info.plist */,
+			);
+			path = "CRED-SubmissionTests";
+			sourceTree = "<group>";
+		};
+		D57B638E2681B4CA00747890 /* CRED-SubmissionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D57B638F2681B4CA00747890 /* CRED_SubmissionUITests.swift */,
+				D57B63912681B4CA00747890 /* Info.plist */,
+			);
+			path = "CRED-SubmissionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D57B63692681B4C300747890 /* CRED-Submission */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D57B63942681B4CA00747890 /* Build configuration list for PBXNativeTarget "CRED-Submission" */;
+			buildPhases = (
+				D57B63662681B4C300747890 /* Sources */,
+				D57B63672681B4C300747890 /* Frameworks */,
+				D57B63682681B4C300747890 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CRED-Submission";
+			productName = "CRED-Submission";
+			productReference = D57B636A2681B4C300747890 /* CRED-Submission.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D57B637F2681B4CA00747890 /* CRED-SubmissionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D57B63972681B4CA00747890 /* Build configuration list for PBXNativeTarget "CRED-SubmissionTests" */;
+			buildPhases = (
+				D57B637C2681B4CA00747890 /* Sources */,
+				D57B637D2681B4CA00747890 /* Frameworks */,
+				D57B637E2681B4CA00747890 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D57B63822681B4CA00747890 /* PBXTargetDependency */,
+			);
+			name = "CRED-SubmissionTests";
+			productName = "CRED-SubmissionTests";
+			productReference = D57B63802681B4CA00747890 /* CRED-SubmissionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D57B638A2681B4CA00747890 /* CRED-SubmissionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D57B639A2681B4CA00747890 /* Build configuration list for PBXNativeTarget "CRED-SubmissionUITests" */;
+			buildPhases = (
+				D57B63872681B4CA00747890 /* Sources */,
+				D57B63882681B4CA00747890 /* Frameworks */,
+				D57B63892681B4CA00747890 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D57B638D2681B4CA00747890 /* PBXTargetDependency */,
+			);
+			name = "CRED-SubmissionUITests";
+			productName = "CRED-SubmissionUITests";
+			productReference = D57B638B2681B4CA00747890 /* CRED-SubmissionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D57B63622681B4C300747890 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D57B63692681B4C300747890 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					D57B637F2681B4CA00747890 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = D57B63692681B4C300747890;
+					};
+					D57B638A2681B4CA00747890 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = D57B63692681B4C300747890;
+					};
+				};
+			};
+			buildConfigurationList = D57B63652681B4C300747890 /* Build configuration list for PBXProject "CRED-Submission" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D57B63612681B4C300747890;
+			productRefGroup = D57B636B2681B4C300747890 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D57B63692681B4C300747890 /* CRED-Submission */,
+				D57B637F2681B4CA00747890 /* CRED-SubmissionTests */,
+				D57B638A2681B4CA00747890 /* CRED-SubmissionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D57B63682681B4C300747890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57B637A2681B4CA00747890 /* LaunchScreen.storyboard in Resources */,
+				D57B63772681B4C900747890 /* Assets.xcassets in Resources */,
+				D57B63752681B4C300747890 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D57B637E2681B4CA00747890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D57B63892681B4CA00747890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D57B63662681B4C300747890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57B63722681B4C300747890 /* ViewController.swift in Sources */,
+				D57B636E2681B4C300747890 /* AppDelegate.swift in Sources */,
+				D57B63702681B4C300747890 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D57B637C2681B4CA00747890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57B63852681B4CA00747890 /* CRED_SubmissionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D57B63872681B4CA00747890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57B63902681B4CA00747890 /* CRED_SubmissionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D57B63822681B4CA00747890 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D57B63692681B4C300747890 /* CRED-Submission */;
+			targetProxy = D57B63812681B4CA00747890 /* PBXContainerItemProxy */;
+		};
+		D57B638D2681B4CA00747890 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D57B63692681B4C300747890 /* CRED-Submission */;
+			targetProxy = D57B638C2681B4CA00747890 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D57B63732681B4C300747890 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D57B63742681B4C300747890 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D57B63782681B4CA00747890 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D57B63792681B4CA00747890 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D57B63922681B4CA00747890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D57B63932681B4CA00747890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D57B63952681B4CA00747890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AD2RY8S5T;
+				INFOPLIST_FILE = "CRED-Submission/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Darshil.CRED-Submission";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D57B63962681B4CA00747890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AD2RY8S5T;
+				INFOPLIST_FILE = "CRED-Submission/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Darshil.CRED-Submission";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D57B63982681B4CA00747890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AD2RY8S5T;
+				INFOPLIST_FILE = "CRED-SubmissionTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Darshil.CRED-SubmissionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRED-Submission.app/CRED-Submission";
+			};
+			name = Debug;
+		};
+		D57B63992681B4CA00747890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AD2RY8S5T;
+				INFOPLIST_FILE = "CRED-SubmissionTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Darshil.CRED-SubmissionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRED-Submission.app/CRED-Submission";
+			};
+			name = Release;
+		};
+		D57B639B2681B4CA00747890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AD2RY8S5T;
+				INFOPLIST_FILE = "CRED-SubmissionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Darshil.CRED-SubmissionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CRED-Submission";
+			};
+			name = Debug;
+		};
+		D57B639C2681B4CA00747890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AD2RY8S5T;
+				INFOPLIST_FILE = "CRED-SubmissionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Darshil.CRED-SubmissionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CRED-Submission";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D57B63652681B4C300747890 /* Build configuration list for PBXProject "CRED-Submission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D57B63922681B4CA00747890 /* Debug */,
+				D57B63932681B4CA00747890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D57B63942681B4CA00747890 /* Build configuration list for PBXNativeTarget "CRED-Submission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D57B63952681B4CA00747890 /* Debug */,
+				D57B63962681B4CA00747890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D57B63972681B4CA00747890 /* Build configuration list for PBXNativeTarget "CRED-SubmissionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D57B63982681B4CA00747890 /* Debug */,
+				D57B63992681B4CA00747890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D57B639A2681B4CA00747890 /* Build configuration list for PBXNativeTarget "CRED-SubmissionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D57B639B2681B4CA00747890 /* Debug */,
+				D57B639C2681B4CA00747890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D57B63622681B4C300747890 /* Project object */;
+}
