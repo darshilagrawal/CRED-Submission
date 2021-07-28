@@ -7,11 +7,13 @@
 
 import UIKit
 import Synth
+import Lottie
 
 class ViewController: UIViewController {
     var state: Bool = true
     @IBOutlet weak var mainHeading: UILabel!
     
+    @IBOutlet weak var creditCardAnimation: AnimationView!
     @IBOutlet weak var subHeading: UILabel!
     @IBOutlet weak var nameField: UITextField!
     
@@ -23,6 +25,11 @@ class ViewController: UIViewController {
         mainHeading.text = "Welcome to CRED"
         mainHeading.applyNeuStyle(model: NeuUIHelper.getDebossModel(), showOnlyShadows: true)
         subHeading.applyNeuStyle(model: NeuUIHelper.getDebossModel(), showOnlyShadows: true)
+//        creditCardAnimation.animation = Animation.named("33021-credit-card-swipe")
+        creditCardAnimation.animationSpeed = 0.8
+        creditCardAnimation.loopMode = .loop
+//        creditCardAnimation.contentMode = .scaleAspectFill
+        creditCardAnimation.play()
     }
 
     @IBAction func submitButtonPressed(_ sender: Any) {

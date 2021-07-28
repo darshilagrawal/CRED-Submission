@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -28,6 +28,10 @@
 		D57B63B32681F13900747890 /* BankSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57B63B12681F13900747890 /* BankSelectionViewController.swift */; };
 		D57B63B42681F13900747890 /* BankSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D57B63B22681F13900747890 /* BankSelectionViewController.xib */; };
 		D57B63B62681FA2800747890 /* EmiCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57B63B52681FA2800747890 /* EmiCellModel.swift */; };
+		D596E6F62690314D00DD3736 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = D596E6F52690314D00DD3736 /* Lottie */; };
+		D596E6F82690336300DD3736 /* 33021-credit-card-swipe.json in Resources */ = {isa = PBXBuildFile; fileRef = D596E6F72690336300DD3736 /* 33021-credit-card-swipe.json */; };
+		D596E6FA269041C500DD3736 /* 63619-credit-crad-flip-white.json in Resources */ = {isa = PBXBuildFile; fileRef = D596E6F9269041C500DD3736 /* 63619-credit-crad-flip-white.json */; };
+		D596E6FC269042AC00DD3736 /* 8352-bitcoin.json in Resources */ = {isa = PBXBuildFile; fileRef = D596E6FB269042AC00DD3736 /* 8352-bitcoin.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +84,9 @@
 		D57B63B12681F13900747890 /* BankSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankSelectionViewController.swift; sourceTree = "<group>"; };
 		D57B63B22681F13900747890 /* BankSelectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BankSelectionViewController.xib; sourceTree = "<group>"; };
 		D57B63B52681FA2800747890 /* EmiCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmiCellModel.swift; sourceTree = "<group>"; };
+		D596E6F72690336300DD3736 /* 33021-credit-card-swipe.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "33021-credit-card-swipe.json"; sourceTree = "<group>"; };
+		D596E6F9269041C500DD3736 /* 63619-credit-crad-flip-white.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "63619-credit-crad-flip-white.json"; sourceTree = "<group>"; };
+		D596E6FB269042AC00DD3736 /* 8352-bitcoin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "8352-bitcoin.json"; sourceTree = "<group>"; };
 		E02F816FDA473C157807C72C /* Pods-CRED-SubmissionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRED-SubmissionTests.debug.xcconfig"; path = "Target Support Files/Pods-CRED-SubmissionTests/Pods-CRED-SubmissionTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,6 +96,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52D565A749D23C6468C69C93 /* Pods_CRED_Submission.framework in Frameworks */,
+				D596E6F62690314D00DD3736 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +173,9 @@
 				D57B63AF2681ED1600747890 /* CollectionCellColors.swift */,
 				D57B63B12681F13900747890 /* BankSelectionViewController.swift */,
 				D57B63B22681F13900747890 /* BankSelectionViewController.xib */,
+				D596E6FB269042AC00DD3736 /* 8352-bitcoin.json */,
+				D596E6F9269041C500DD3736 /* 63619-credit-crad-flip-white.json */,
+				D596E6F72690336300DD3736 /* 33021-credit-card-swipe.json */,
 				D57B63B52681FA2800747890 /* EmiCellModel.swift */,
 			);
 			path = "CRED-Submission";
@@ -216,6 +227,9 @@
 			dependencies = (
 			);
 			name = "CRED-Submission";
+			packageProductDependencies = (
+				D596E6F52690314D00DD3736 /* Lottie */,
+			);
 			productName = "CRED-Submission";
 			productReference = D57B636A2681B4C300747890 /* CRED-Submission.app */;
 			productType = "com.apple.product-type.application";
@@ -290,6 +304,9 @@
 				Base,
 			);
 			mainGroup = D57B63612681B4C300747890;
+			packageReferences = (
+				D596E6F42690314D00DD3736 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = D57B636B2681B4C300747890 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -307,11 +324,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D57B63AE2681E5AE00747890 /* EmiCell.xib in Resources */,
+				D596E6F82690336300DD3736 /* 33021-credit-card-swipe.json in Resources */,
 				D57B63B42681F13900747890 /* BankSelectionViewController.xib in Resources */,
 				D57B637A2681B4CA00747890 /* LaunchScreen.storyboard in Resources */,
+				D596E6FC269042AC00DD3736 /* 8352-bitcoin.json in Resources */,
 				D57B63A32681C23D00747890 /* AmountSelectionViewController.xib in Resources */,
 				D57B63772681B4C900747890 /* Assets.xcassets in Resources */,
 				D57B63AA2681E07000747890 /* EmiSelectionViewController.xib in Resources */,
+				D596E6FA269041C500DD3736 /* 63619-credit-crad-flip-white.json in Resources */,
 				D57B63752681B4C300747890 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -787,6 +807,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D596E6F42690314D00DD3736 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D596E6F52690314D00DD3736 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D596E6F42690314D00DD3736 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D57B63622681B4C300747890 /* Project object */;
 }
