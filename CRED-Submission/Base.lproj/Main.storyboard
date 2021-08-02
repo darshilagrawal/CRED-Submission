@@ -18,17 +18,26 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome To Cred" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uyp-NA-wPS">
                                 <rect key="frame" x="85" y="282" width="244" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="eap-Nj-Uoq"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <color key="textColor" name="Cred_font"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Kunal Shah" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QYa-C8-94W">
                                 <rect key="frame" x="20" y="474" width="374" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="l75-Df-uS4"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter your name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4AK-By-t6P">
-                                <rect key="frame" x="103" y="354" width="207" height="23"/>
+                                <rect key="frame" x="103.5" y="354" width="207" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="GML-Xo-Mhc"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -36,6 +45,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eyq-h7-hYz">
                                 <rect key="frame" x="20" y="533" width="374" height="30"/>
                                 <color key="backgroundColor" name="Cred_blue"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="rFX-MU-Sae"/>
+                                </constraints>
                                 <state key="normal" title="Submit">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -44,11 +56,8 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="ckK-Fy-T5U" customClass="AnimationView" customModule="Lottie">
-                                <rect key="frame" x="60" y="635" width="292" height="167"/>
+                                <rect key="frame" x="60" y="635" width="292" height="212"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="167" id="FgG-N5-pCr"/>
-                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="8352-bitcoin"/>
                                 </userDefinedRuntimeAttributes>
@@ -57,20 +66,20 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" name="Cred_grey"/>
                         <constraints>
-                            <constraint firstItem="uyp-NA-wPS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1lM-Bb-GJt"/>
                             <constraint firstItem="QYa-C8-94W" firstAttribute="top" secondItem="4AK-By-t6P" secondAttribute="bottom" constant="97" id="4Yb-eu-dlz"/>
                             <constraint firstItem="ckK-Fy-T5U" firstAttribute="top" secondItem="eyq-h7-hYz" secondAttribute="bottom" constant="72" id="D7l-NK-zt2"/>
+                            <constraint firstItem="4AK-By-t6P" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ISy-Tj-NB5"/>
                             <constraint firstItem="ckK-Fy-T5U" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="Sed-gZ-cCM"/>
                             <constraint firstItem="uyp-NA-wPS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="194" id="TI4-Su-rPI"/>
                             <constraint firstItem="eyq-h7-hYz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="VBH-Cm-WUX"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eyq-h7-hYz" secondAttribute="trailing" constant="20" id="Vhe-KN-Oaj"/>
-                            <constraint firstItem="uyp-NA-wPS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-148" id="abc-8x-9Gu"/>
                             <constraint firstItem="QYa-C8-94W" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="dpD-I9-jfr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ckK-Fy-T5U" secondAttribute="bottom" constant="15" id="es6-4p-86D"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QYa-C8-94W" secondAttribute="trailing" constant="20" id="f1P-GB-eGU"/>
+                            <constraint firstItem="uyp-NA-wPS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="g2m-GO-cYO"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ckK-Fy-T5U" secondAttribute="trailing" constant="62" id="jhB-LX-emc"/>
                             <constraint firstItem="4AK-By-t6P" firstAttribute="top" secondItem="uyp-NA-wPS" secondAttribute="bottom" constant="36" id="kDE-CP-75z"/>
                             <constraint firstItem="eyq-h7-hYz" firstAttribute="top" secondItem="QYa-C8-94W" secondAttribute="bottom" constant="25" id="laL-1u-iMe"/>
-                            <constraint firstItem="4AK-By-t6P" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="103" id="r7K-8n-Re0"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="DC7-Zf-78j"/>

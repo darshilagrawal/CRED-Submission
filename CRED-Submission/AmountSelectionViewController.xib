@@ -46,12 +46,18 @@
                         </button>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nikunj, how much do you need?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZXw-W3-Ibg">
                             <rect key="frame" x="27" y="51" width="265" height="22"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="22" id="Z7R-vW-zuC"/>
+                            </constraints>
                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                             <color key="textColor" name="Cred_font"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="move the dial and set any amount you need upto ₹ 487,891" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZMo-N9-txB">
                             <rect key="frame" x="27" y="81" width="347" height="36"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="36" id="6SN-od-q2u"/>
+                            </constraints>
                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                             <color key="textColor" name="Cred_font"/>
                             <nil key="highlightedColor"/>
@@ -76,28 +82,39 @@
                                     <rect key="frame" x="47" y="75" width="300" height="308.5"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="credit amount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eti-Cf-U4P">
-                                            <rect key="frame" x="103" y="99" width="94" height="17"/>
+                                            <rect key="frame" x="103" y="50" width="94" height="17"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="17" id="xSE-q7-Jfa"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
                                             <color key="textColor" name="Cred_font"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Prh-cs-zSz">
-                                            <rect key="frame" x="120" y="132" width="15.5" height="29"/>
+                                            <rect key="frame" x="142.5" y="83" width="15.5" height="29"/>
                                             <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="29" id="deS-Ev-FAB"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@1.04% monthly" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7na-YA-Cmm">
-                                            <rect key="frame" x="99" y="180" width="102" height="15"/>
+                                            <rect key="frame" x="99" y="131" width="102" height="15"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="15" id="kEi-Mj-gLY"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                                             <color key="textColor" red="0.56462705140000002" green="0.65885877609999999" blue="0.53326660390000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="₹" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ya4-Um-7EY">
-                                            <rect key="frame" x="102" y="132" width="16" height="29"/>
+                                            <rect key="frame" x="122.5" y="83" width="16" height="29"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="16" id="eaV-3l-1Jh"/>
+                                                <constraint firstAttribute="height" constant="29" id="sM8-QP-2Mi"/>
+                                                <constraint firstAttribute="width" constant="16" id="zBT-tY-rpN"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                             <nil key="textColor"/>
@@ -106,20 +123,18 @@
                                     </subviews>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
-                                        <constraint firstItem="Eti-Cf-U4P" firstAttribute="top" secondItem="RbL-Yy-kir" secondAttribute="top" constant="99" id="4E3-iR-WG9"/>
+                                        <constraint firstItem="Eti-Cf-U4P" firstAttribute="top" secondItem="RbL-Yy-kir" secondAttribute="top" constant="50" id="1Uj-VM-tYp"/>
+                                        <constraint firstItem="Prh-cs-zSz" firstAttribute="leading" secondItem="Ya4-Um-7EY" secondAttribute="trailing" constant="4" id="FAf-uJ-eqn"/>
                                         <constraint firstItem="Ya4-Um-7EY" firstAttribute="top" secondItem="Eti-Cf-U4P" secondAttribute="bottom" constant="16" id="IuY-63-HdY"/>
                                         <constraint firstItem="7na-YA-Cmm" firstAttribute="top" secondItem="Ya4-Um-7EY" secondAttribute="bottom" constant="19" id="JXW-bE-lyf"/>
-                                        <constraint firstAttribute="bottom" secondItem="7na-YA-Cmm" secondAttribute="bottom" constant="113.5" id="Kd0-JE-eXP"/>
-                                        <constraint firstItem="Ya4-Um-7EY" firstAttribute="leading" secondItem="RbL-Yy-kir" secondAttribute="leading" constant="102" id="LCh-hd-6Pw"/>
-                                        <constraint firstItem="Prh-cs-zSz" firstAttribute="leading" secondItem="Ya4-Um-7EY" secondAttribute="trailing" constant="2" id="Yx3-L7-5G7"/>
+                                        <constraint firstAttribute="width" secondItem="RbL-Yy-kir" secondAttribute="height" multiplier="75:77" id="UrN-Wg-ECQ"/>
+                                        <constraint firstItem="7na-YA-Cmm" firstAttribute="leading" secondItem="RbL-Yy-kir" secondAttribute="leading" constant="99" id="ZDm-i5-dAl"/>
+                                        <constraint firstItem="7na-YA-Cmm" firstAttribute="centerX" secondItem="RbL-Yy-kir" secondAttribute="centerX" id="d5g-j5-s5i"/>
                                         <constraint firstItem="Prh-cs-zSz" firstAttribute="top" secondItem="Eti-Cf-U4P" secondAttribute="bottom" constant="16" id="g2c-f9-jyc"/>
-                                        <constraint firstAttribute="trailing" secondItem="7na-YA-Cmm" secondAttribute="trailing" constant="99" id="gKi-Dl-B39"/>
                                         <constraint firstItem="7na-YA-Cmm" firstAttribute="top" secondItem="Prh-cs-zSz" secondAttribute="bottom" constant="19" id="iKO-uA-C9M"/>
-                                        <constraint firstItem="Eti-Cf-U4P" firstAttribute="leading" secondItem="RbL-Yy-kir" secondAttribute="leading" constant="103" id="lGw-Mb-tsI"/>
-                                        <constraint firstItem="Prh-cs-zSz" firstAttribute="leading" secondItem="Ya4-Um-7EY" secondAttribute="trailing" constant="2" id="mBh-2R-hFL"/>
-                                        <constraint firstAttribute="trailing" secondItem="Eti-Cf-U4P" secondAttribute="trailing" constant="103" id="rfp-b9-pc0"/>
+                                        <constraint firstItem="Prh-cs-zSz" firstAttribute="centerX" secondItem="RbL-Yy-kir" secondAttribute="centerX" id="icF-rz-2ZB"/>
+                                        <constraint firstItem="Eti-Cf-U4P" firstAttribute="centerX" secondItem="RbL-Yy-kir" secondAttribute="centerX" id="sad-GC-FIv"/>
                                         <constraint firstItem="Prh-cs-zSz" firstAttribute="top" secondItem="Eti-Cf-U4P" secondAttribute="bottom" constant="16" id="upH-SG-sUP"/>
-                                        <constraint firstItem="7na-YA-Cmm" firstAttribute="leading" secondItem="RbL-Yy-kir" secondAttribute="leading" constant="99" id="z0r-7X-e4P"/>
                                     </constraints>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="color" keyPath="diskFillColor">
@@ -154,6 +169,9 @@
                                 </view>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="stash is instant money . will be deposited within seconds" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IXH-dF-quZ">
                                     <rect key="frame" x="40" y="406.5" width="314" height="38.5"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="38.5" id="1RL-Uy-FNM"/>
+                                    </constraints>
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
                                     <color key="textColor" name="Cred_font"/>
                                     <nil key="highlightedColor"/>
@@ -163,10 +181,10 @@
                             <constraints>
                                 <constraint firstItem="IXH-dF-quZ" firstAttribute="top" secondItem="RbL-Yy-kir" secondAttribute="bottom" constant="23" id="4yq-Yk-ZZa"/>
                                 <constraint firstItem="IXH-dF-quZ" firstAttribute="leading" secondItem="QLw-tU-G8g" secondAttribute="leading" constant="40" id="I6g-zK-0mB"/>
-                                <constraint firstAttribute="trailing" secondItem="RbL-Yy-kir" secondAttribute="trailing" constant="47" id="RCa-SC-3cp"/>
+                                <constraint firstItem="RbL-Yy-kir" firstAttribute="centerX" secondItem="QLw-tU-G8g" secondAttribute="centerX" id="hFP-Hz-xwp"/>
                                 <constraint firstItem="RbL-Yy-kir" firstAttribute="top" secondItem="QLw-tU-G8g" secondAttribute="top" constant="75" id="ppz-8O-Sjt"/>
+                                <constraint firstAttribute="bottom" secondItem="IXH-dF-quZ" secondAttribute="bottom" constant="14" id="qNo-g5-KbM"/>
                                 <constraint firstAttribute="trailing" secondItem="IXH-dF-quZ" secondAttribute="trailing" constant="40" id="tpJ-4g-Alx"/>
-                                <constraint firstItem="RbL-Yy-kir" firstAttribute="leading" secondItem="QLw-tU-G8g" secondAttribute="leading" constant="47" id="uKV-15-lNf"/>
                             </constraints>
                         </view>
                     </subviews>
