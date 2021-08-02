@@ -29,9 +29,12 @@ class ViewController: UIViewController {
         creditCardAnimation.animationSpeed = 0.8
         creditCardAnimation.loopMode = .loop
 //        creditCardAnimation.contentMode = .scaleAspectFill
-        creditCardAnimation.play()
     }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        creditCardAnimation.play()
 
+    }
     @IBAction func submitButtonPressed(_ sender: Any) {
         if nameField.text != ""{
             if let nameToPass = nameField.text{

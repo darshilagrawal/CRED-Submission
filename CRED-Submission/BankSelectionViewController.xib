@@ -26,7 +26,7 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hNb-lw-Zu4">
                     <rect key="frame" x="0.0" y="344" width="414" height="552"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="where should we send the money?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e46-OJ-j5e">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="where should we send the money?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="e46-OJ-j5e">
                             <rect key="frame" x="27" y="65" width="274" height="21"/>
                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                             <color key="textColor" name="Cred_font"/>
@@ -56,10 +56,13 @@
                             <color key="textColor" name="Cred_font"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qyu-Rg-315">
-                            <rect key="frame" x="358" y="156" width="25" height="25"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qyu-Rg-315">
+                            <rect key="frame" x="352" y="156" width="25" height="25"/>
                             <color key="backgroundColor" red="0.50789833179999999" green="0.57647058819999997" blue="0.57109461250000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="25" id="aq2-rL-yIZ"/>
+                                <constraint firstAttribute="width" constant="25" id="rP8-ij-Ta5"/>
+                            </constraints>
                             <state key="normal" image="empty-circle"/>
                             <connections>
                                 <action selector="selectionButtonPressed:" destination="-1" eventType="touchUpInside" id="hhm-N6-oFT"/>
@@ -110,10 +113,12 @@
                         <constraint firstItem="t6U-Ez-5X0" firstAttribute="top" secondItem="hNb-lw-Zu4" secondAttribute="top" constant="70" id="A6W-ON-GD7"/>
                         <constraint firstAttribute="bottom" secondItem="zNI-MX-X7G" secondAttribute="bottom" id="LqB-rR-hFg"/>
                         <constraint firstAttribute="trailing" secondItem="t6U-Ez-5X0" secondAttribute="trailing" constant="37" id="Ord-ew-Wr3"/>
+                        <constraint firstAttribute="trailing" secondItem="qyu-Rg-315" secondAttribute="trailing" constant="37" id="WRl-L9-NXt"/>
                         <constraint firstAttribute="trailing" secondItem="GqQ-OV-GWT" secondAttribute="trailing" constant="120" id="YQD-66-dHU"/>
                         <constraint firstItem="e46-OJ-j5e" firstAttribute="leading" secondItem="hNb-lw-Zu4" secondAttribute="leading" constant="27" id="lXw-oI-1gH"/>
                         <constraint firstItem="zNI-MX-X7G" firstAttribute="leading" secondItem="hNb-lw-Zu4" secondAttribute="leading" id="mxz-fU-6fG"/>
                         <constraint firstItem="GqQ-OV-GWT" firstAttribute="top" secondItem="e46-OJ-j5e" secondAttribute="bottom" constant="8" symbolic="YES" id="rti-Nr-bHL"/>
+                        <constraint firstItem="qyu-Rg-315" firstAttribute="top" secondItem="t6U-Ez-5X0" secondAttribute="bottom" constant="76" id="sLc-Ls-3FT"/>
                         <constraint firstAttribute="trailing" secondItem="e46-OJ-j5e" secondAttribute="trailing" constant="113" id="t8x-fN-ien"/>
                         <constraint firstItem="GqQ-OV-GWT" firstAttribute="leading" secondItem="hNb-lw-Zu4" secondAttribute="leading" constant="27" id="xfB-bd-902"/>
                     </constraints>

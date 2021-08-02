@@ -82,7 +82,7 @@
                                     <rect key="frame" x="47" y="75" width="300" height="308.5"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="credit amount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eti-Cf-U4P">
-                                            <rect key="frame" x="103" y="50" width="94" height="17"/>
+                                            <rect key="frame" x="103" y="116" width="94" height="17"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="17" id="xSE-q7-Jfa"/>
                                             </constraints>
@@ -91,7 +91,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Prh-cs-zSz">
-                                            <rect key="frame" x="142.5" y="83" width="15.5" height="29"/>
+                                            <rect key="frame" x="142.5" y="140" width="15.5" height="29"/>
                                             <color key="backgroundColor" systemColor="systemGray5Color"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="29" id="deS-Ev-FAB"/>
@@ -101,7 +101,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@1.04% monthly" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7na-YA-Cmm">
-                                            <rect key="frame" x="99" y="131" width="102" height="15"/>
+                                            <rect key="frame" x="99" y="179" width="102" height="15"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="15" id="kEi-Mj-gLY"/>
                                             </constraints>
@@ -110,7 +110,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="₹" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ya4-Um-7EY">
-                                            <rect key="frame" x="122.5" y="83" width="16" height="29"/>
+                                            <rect key="frame" x="122.5" y="140" width="16" height="29"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="16" id="eaV-3l-1Jh"/>
                                                 <constraint firstAttribute="height" constant="29" id="sM8-QP-2Mi"/>
@@ -123,18 +123,15 @@
                                     </subviews>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
-                                        <constraint firstItem="Eti-Cf-U4P" firstAttribute="top" secondItem="RbL-Yy-kir" secondAttribute="top" constant="50" id="1Uj-VM-tYp"/>
+                                        <constraint firstItem="7na-YA-Cmm" firstAttribute="top" secondItem="Prh-cs-zSz" secondAttribute="bottom" constant="10" id="1xg-s7-dPH"/>
+                                        <constraint firstItem="Eti-Cf-U4P" firstAttribute="centerY" secondItem="RbL-Yy-kir" secondAttribute="centerY" constant="-30" id="78v-A9-m5o"/>
                                         <constraint firstItem="Prh-cs-zSz" firstAttribute="leading" secondItem="Ya4-Um-7EY" secondAttribute="trailing" constant="4" id="FAf-uJ-eqn"/>
-                                        <constraint firstItem="Ya4-Um-7EY" firstAttribute="top" secondItem="Eti-Cf-U4P" secondAttribute="bottom" constant="16" id="IuY-63-HdY"/>
-                                        <constraint firstItem="7na-YA-Cmm" firstAttribute="top" secondItem="Ya4-Um-7EY" secondAttribute="bottom" constant="19" id="JXW-bE-lyf"/>
                                         <constraint firstAttribute="width" secondItem="RbL-Yy-kir" secondAttribute="height" multiplier="75:77" id="UrN-Wg-ECQ"/>
-                                        <constraint firstItem="7na-YA-Cmm" firstAttribute="leading" secondItem="RbL-Yy-kir" secondAttribute="leading" constant="99" id="ZDm-i5-dAl"/>
                                         <constraint firstItem="7na-YA-Cmm" firstAttribute="centerX" secondItem="RbL-Yy-kir" secondAttribute="centerX" id="d5g-j5-s5i"/>
-                                        <constraint firstItem="Prh-cs-zSz" firstAttribute="top" secondItem="Eti-Cf-U4P" secondAttribute="bottom" constant="16" id="g2c-f9-jyc"/>
-                                        <constraint firstItem="7na-YA-Cmm" firstAttribute="top" secondItem="Prh-cs-zSz" secondAttribute="bottom" constant="19" id="iKO-uA-C9M"/>
                                         <constraint firstItem="Prh-cs-zSz" firstAttribute="centerX" secondItem="RbL-Yy-kir" secondAttribute="centerX" id="icF-rz-2ZB"/>
+                                        <constraint firstItem="Ya4-Um-7EY" firstAttribute="centerY" secondItem="RbL-Yy-kir" secondAttribute="centerY" id="jU0-ma-eGJ"/>
+                                        <constraint firstItem="Prh-cs-zSz" firstAttribute="centerY" secondItem="RbL-Yy-kir" secondAttribute="centerY" id="mQM-s7-2e5"/>
                                         <constraint firstItem="Eti-Cf-U4P" firstAttribute="centerX" secondItem="RbL-Yy-kir" secondAttribute="centerX" id="sad-GC-FIv"/>
-                                        <constraint firstItem="Prh-cs-zSz" firstAttribute="top" secondItem="Eti-Cf-U4P" secondAttribute="bottom" constant="16" id="upH-SG-sUP"/>
                                     </constraints>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="color" keyPath="diskFillColor">
