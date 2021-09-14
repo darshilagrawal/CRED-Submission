@@ -41,8 +41,8 @@ class AmountSelectionViewController: UIViewController,UIGestureRecognizerDelegat
         contentView?.layer.cornerRadius = CGFloat(14)
         contentView?.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
         CircularCardView?.layer.cornerRadius = CGFloat(14)
-        amountScreenMainLabel.text = "\(nameOfPerson), how much do you need?"
-        AmountSecondaryLabel.text = "move the dial and set any amount you need upto ₹ 487,891"
+        amountScreenMainLabel.text = nameOfPerson + " " + StringConstants.amount
+        AmountSecondaryLabel.text = StringConstants.dial
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(backgroundTouchAction))
         tapGesture.delegate = self
         self.view?.addGestureRecognizer(tapGesture)
@@ -95,7 +95,7 @@ class AmountSelectionViewController: UIViewController,UIGestureRecognizerDelegat
             self?.setUpViews()
         }
         self.present(finalVC, animated: true){
-            self.amountScreenMainLabel.text = "Credit Amount"
+            self.amountScreenMainLabel.text = StringConstants.credit
             self.AmountSecondaryLabel.text = "₹ "+self.finalValueInString
         }
         

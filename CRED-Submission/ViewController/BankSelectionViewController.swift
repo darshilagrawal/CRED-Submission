@@ -29,14 +29,14 @@ class BankSelectionViewController: UIViewController,UIGestureRecognizerDelegate 
     }
     
     @IBAction func changeAccountButtonPressed(_ sender: UIButton) {
-        let alert = UIAlertController(title: "This Screen is Ready", message: "I have decided the roadmap for this screen and will start working once I am Hired :)", preferredStyle: UIAlertController.Style.alert)
+        let alert = UIAlertController(title: "This Screen is Ready", message: StringConstants.roadmap, preferredStyle: UIAlertController.Style.alert)
         alert.addAction(UIAlertAction(title: "Didn't See that coming", style: UIAlertAction.Style.default, handler: nil))
         alert.addAction(UIAlertAction(title: "Good Job", style: UIAlertAction.Style.default, handler: nil))
         self.present(alert, animated: true, completion: nil)
     }
     
     @IBAction func finalBackButtonPressed(_ sender: UIButton) {
-        let alert = UIAlertController(title: "That's It For The Day", message: "Hope you Enjoyed my Submission and watched the little Easter eggs planted in this App", preferredStyle: UIAlertController.Style.alert)
+        let alert = UIAlertController(title: "That's It For The Day", message: StringConstants.thanks, preferredStyle: UIAlertController.Style.alert)
         alert.addAction(UIAlertAction(title: "You are Hired", style: UIAlertAction.Style.default, handler: nil))
         alert.addAction(UIAlertAction(title: "You are Definetely Hired :)", style: UIAlertAction.Style.default, handler: nil))
         self.present(alert, animated: true, completion: nil)

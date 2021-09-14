@@ -45,7 +45,7 @@ class ViewController: UIViewController {
         self.navigationController?.pushViewController(vc, animated: true)
             }
         }else{
-            let alert = UIAlertController(title: "It's Important", message: "We at Cred believe in anonymity but your name is Important :)", preferredStyle: UIAlertController.Style.alert)
+            let alert = UIAlertController(title: "It's Important", message: StringConstants.policy, preferredStyle: UIAlertController.Style.alert)
             alert.addAction(UIAlertAction(title: "I Understand", style: UIAlertAction.Style.default, handler: nil))
             alert.addAction(UIAlertAction(title: "Good Job", style: UIAlertAction.Style.default, handler: nil))
             self.present(alert, animated: true, completion: nil)
